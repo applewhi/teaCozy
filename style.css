@@ -1,6 +1,8 @@
 #locations {
   align-items: center;
   background-image: url("./resources/img/img-locations-background.jpg");
+  background-size: 90%;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   height: 500px;
@@ -42,10 +44,13 @@ header img {
   padding-left: 10px;
 }
 nav {
-  color: seashell;
   flex-grow: 1;
   padding-right: 10px;
   text-align: right;
+}
+
+a {
+  color: seashell;
 }
 
 .first-row,
