@@ -2,12 +2,11 @@
   align-items: center;
   background-image: url("./resources/img/img-locations-background.jpg");
   background-position: 50%;
-  background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   height: 500px;
-  width: 100%;
+  width: 1200px;
     }
 
 #mission {
@@ -82,7 +81,7 @@ a {
 
 .container {
   display: flex;
-  width: 1200px;
+  width: 100%;
   align-items: center;
   flex-direction: column;
   position: relative;
@@ -124,5 +123,6 @@ footer .section {
 .copyright {
   display:flex;
   flex-grow: 1;
+  margin-left: 20px;
   text-align: left;
 }
