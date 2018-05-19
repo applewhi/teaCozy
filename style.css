@@ -3,9 +3,40 @@ body {
     font-size: 22px;
     color: seashell;
     background-color: black;
-    opaciy: 0.9;
+    opacity: 0.9;
 }
 
 header {
   display: flex;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+nav {
+  justify-content: flex-end;
+}
+.container {
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.teas {
+  display: flex;
+  width 1000px;
+}
+
+.tea {
+  height: 200px;
+  width: 300px;
+}
+#mission {
+  height: 700px;
 }
